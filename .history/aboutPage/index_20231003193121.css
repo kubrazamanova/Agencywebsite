@@ -30,7 +30,7 @@
 }
 
 .box1 b {
-  /* width: 587px; */
+  width: 587px;
   color: var(--Primary-colors, #333);
   text-align: center;
   font-family: Inter;
