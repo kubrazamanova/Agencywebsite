@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 120px 80px 102px 80px;
+  min-height: 100vh;
+  background: var(--White, #fff);
+}
+
+.container h1 {
+  margin-bottom: 24px;
+  color: var(--Black, #000);
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 138%;
+}
+
+.container h2 {
+  color: var(--Body, #494949);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 156%;
+}
+
+.container ul {
+  display: flex;
+  margin-top: 40px;
+}
+
+ul li {
+  list-style-type: none;
+}
+.box1 {
+  width: 416px;
+  height: 253px;
+  padding: 32px;
+  background: #fff;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.box1 p {
+  margin-top: 24px;
+}
+
+.box3 img {
+  width: 56px;
+  height: 56px;
+  margin-right: 20px;
+  border-radius: 56px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat, #d9d9d9;
+}
+
+.box3 .name b {
+  color: var(--Primary-colors, #333);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.box3 .name h3 {
+  color: var(--Body, #494949);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.box3 {
+  display: flex;
+  margin-top: 24px;
+}

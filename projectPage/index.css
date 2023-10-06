@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 100vh;
+  padding: 120px 80px 120px 80px;
+}
+
+.container h1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 138%;
+}
+
+.container ul {
+  display: flex;
+}
+
+.container ul li {
+  list-style-type: none;
+  margin-right: 36px;
+}
+
+.box1 {
+  width: 416px;
+  height: 634px;
+  border-radius: 4px;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.box1 img {
+  width: 376px;
+  height: 376px;
+  margin-top: 80px;
+}
+
+.box1 h2 {
+  margin-top: 27px;
+}
+
+.box1 p {
+  width: 376px;
+  margin-top: 20px;
+  color: var(--Body, #494949);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%;
+}
+
+.ikon a {
+  color: var(--Primary-colors, #333);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: THICCCBOI;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.ikon svg {
+  width: 14.076px;
+  height: 10px;
+  stroke-width: 2.5px;
+  stroke: var(--Primary-colors, #333);
+}
+
+.ikon {
+  margin-top: 32px;
+}
