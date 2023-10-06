@@ -1,16 +1,8 @@
-<<<<<<< HEAD
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-=======
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
->>>>>>> 102a97817b13330e5e18da4d6937e4b8e8edca6a
 }
 
 .container {
