@@ -20,32 +20,32 @@
 }
 
 .container ul {
-  margin-top: 80px;
   display: flex;
 }
 
 .container ul li {
-  width: 416px;
-  padding: 20px;
   list-style-type: none;
   margin-right: 36px;
-
+}
+.container ul li {
+  width: 416px;
+  height: 634px;
   border-radius: 4px;
   border-radius: 4px;
   background: #fff;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 li img {
   width: 376px;
   height: 376px;
+  margin-top: 80px;
 }
 
 li h2 {
   margin-top: 27px;
 }
 
-li p {
+ li p {
   width: 376px;
   margin-top: 20px;
   color: var(--Body, #494949);
@@ -54,9 +54,6 @@ li p {
   font-style: normal;
   font-weight: 400;
   line-height: 155%;
-}
-.ikon {
-  margin-top: 32px;
 }
 
 .ikon a {
@@ -75,4 +72,8 @@ li p {
   height: 10px;
   stroke-width: 2.5px;
   stroke: var(--Primary-colors, #333);
+}
+
+.ikon {
+  margin-top: 32px;
 }

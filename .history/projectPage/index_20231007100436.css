@@ -26,7 +26,7 @@
 
 .container ul li {
   width: 416px;
-  padding: 20px;
+padding: 20px;
   list-style-type: none;
   margin-right: 36px;
 
@@ -38,14 +38,13 @@
 
 li img {
   width: 376px;
-  height: 376px;
 }
 
 li h2 {
   margin-top: 27px;
 }
 
-li p {
+ li p {
   width: 376px;
   margin-top: 20px;
   color: var(--Body, #494949);
@@ -76,3 +75,4 @@ li p {
   stroke-width: 2.5px;
   stroke: var(--Primary-colors, #333);
 }
+
